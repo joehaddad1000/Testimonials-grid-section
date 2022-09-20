@@ -1,14 +1,11 @@
 @media all and (min-width: 779.99px) {
-  .testimonials{
+  .testimonials {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    max-width: 1400px;
-    padding: 0;
-    margin: 0;
-    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    place-content: center;
   }
 
   .div1 {
