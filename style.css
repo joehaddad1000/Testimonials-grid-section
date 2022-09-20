@@ -147,7 +147,9 @@ h2 {
     margin: auto;
     max-width: 1200px;
   }
-
+.testimonials>div {
+  margin-block: 0;
+}
   .div1 {
     grid-area: div1;
   }
