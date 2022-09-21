@@ -119,6 +119,16 @@ h2 {
 .padding1 {
   padding-block: 1.5em;
 }
+.div1 {
+    isolation: isolate;
+}
+.semi::before {
+  display: block;
+  content: url("/images/bg-pattern-quotation.svg");
+  position: absolute;
+  right: 10%;
+  z-index: -1;
+}
 
 .attribution {
   font-size: 0.6875rem;
@@ -153,6 +163,12 @@ h2 {
   .div1 {
     grid-area: div1;
   }
+  .semi::before {
+  content: url("/images/bg-pattern-quotation.svg");
+  position: absolute;
+  right: 55%;
+  z-index: -1;
+}
 
   .div2 {
     grid-area: div2;
