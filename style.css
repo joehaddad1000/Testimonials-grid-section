@@ -18,14 +18,14 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 13px;
+  font-size: 0.8125rem;
   min-height: 100vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
   padding: 2em;
   background-color: hsla(235, 20%, 92%, 1);
 }
 
-.testimonials>div {
+.testimonials>article {
   margin-block: 2em;
 }
 
@@ -121,7 +121,7 @@ h2 {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 
@@ -145,9 +145,9 @@ h2 {
       gap: 2em;
     width: 100%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 75rem;
   }
-.testimonials>div {
+.testimonials>article {
   margin-block: 0;
 }
   .div1 {
