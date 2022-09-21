@@ -130,7 +130,7 @@ h2 {
 }
 
 /*QUERIES*/
-@media all and (min-width: 779.99px) {
+@media all and (min-width: 48.750em) {
   .testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
